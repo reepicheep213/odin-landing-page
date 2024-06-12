@@ -1,8 +1,9 @@
 body {
-  font-family: Roboto, Helvetica, sans-serif;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
+  font-family: Roboto, Helvetica, sans-serif;
+  font-size: 18px;
+  min-height: 100vh;
   margin: 0;
   /* padding: 40px; */
 }
@@ -75,6 +76,7 @@ p {
   /* margin: 100px; */
   width: 450px;
   gap: 16px;
+  flex-shrink: 0;
 }
 
 button {
@@ -88,14 +90,11 @@ button {
   font-size: 18px;
   font-weight: bold;
   align-self: flex-start;
+  flex-shrink: 0;
 }
 
-/* can i crop the image? */
-/* can i make its size change as the size of the sibling increases? */
 #image-one {
-  /* flex: 1; */
   width: 400px;
-  /* object-fit: cover; */
 }
 
 .section-two {
@@ -161,6 +160,8 @@ button {
 }
 
 .section-four {
+  display: flex;
+  justify-content: center;
   color: #f9faf8;
   padding: 100px 96px;
 }
@@ -173,6 +174,7 @@ button {
   border-radius: 8px;
   padding: 48px;
   gap: 96px;
+  width: 900px;
 }
 
 .heading-two {
