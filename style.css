@@ -1,0 +1,190 @@
+body {
+  font-family: Roboto, Helvetica, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  /* padding: 40px; */
+}
+/* the margins s/b bigger along the sides -- not through padding? */
+/* .container  {
+  padding: 0 100px;
+} */
+
+.header, 
+.section-one, 
+.footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+}
+
+.section-two,
+.section-four {
+  background-color: #ffffff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 96px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+.logo {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.section-one{
+  display: flex;
+  justify-content: center;
+  padding: 100px 96px;
+  gap: 56px;
+}
+
+.hero {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+  margin: 0;
+}
+
+p {
+  font-size: 18px;
+  margin: 0;
+}
+
+.wrap-one {
+  display: flex;
+  flex-direction: column;
+  /* flex: none; */
+  /* is there a better way to keep the text fixed besides width? */
+  /* maybe via fixing the margins in a sub-container of section-one? */
+  /* margin: 100px; */
+  width: 450px;
+  gap: 16px;
+}
+
+button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 8px;
+  border: none;
+  padding: 8px 32px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  align-self: flex-start;
+}
+
+/* can i crop the image? */
+/* can i make its size change as the size of the sibling increases? */
+#image-one {
+  /* flex: 1; */
+  width: 400px;
+  /* object-fit: cover; */
+}
+
+.section-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #1F2937;
+  padding: 48px 96px 100px;
+  gap: 48px;
+}
+
+.more-info-header {
+  font-size: 36px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.wrap-two {
+  display: flex;
+  gap: 80px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 175px;
+  gap: 8px;
+  text-align: center;
+}
+
+.image-section-two {
+  width: 175px;
+  height: 175px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.section-three {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+  padding: 100px 96px;
+  gap: 16px;
+}
+
+.quote-block {
+  width: 825px;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quote-by {
+  text-align: end;
+  font-size: 24px;
+  align-self: flex-end;
+}
+
+.section-four {
+  color: #f9faf8;
+  padding: 100px 96px;
+}
+
+.action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3882f6;
+  border-radius: 8px;
+  padding: 48px;
+  gap: 96px;
+}
+
+.heading-two {
+  margin: 0;
+}
+
+.button-outlined {
+  border: 2px solid #ffffff;
+  align-self: center;
+}
+
+.footer {
+  text-align: center;
+  padding: 48px;
+}
