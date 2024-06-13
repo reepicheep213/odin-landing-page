@@ -7,3 +7,7 @@ The project is to create a landing page using the early html and css concepts le
 ## Learning Objectives
 
 The objective is to apply HTML and CSS basics as well as to practice problem-solving and researching skills.
+
+## Aditional Information
+
+Images source: www.unsplash.com
